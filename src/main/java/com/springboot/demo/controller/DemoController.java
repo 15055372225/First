@@ -37,6 +37,6 @@ public class DemoController {
         user.setAge(age);
         user.setUserName(userName);
         System.out.println(user);
-        return "输入的对象信息："+ user.toString();
+        return "输入对象信息："+ user.toString();
     }
  }
